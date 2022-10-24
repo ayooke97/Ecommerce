@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="products.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Page Preloder -->
+    <header class="sticky-top">
+      <div class="f-nav">
+        <div class="container d-flex align-items-center">
+          <a href="">Download App Now</a>
+          <ul class="d-flex align-items-center">
+            <li>
+              <div class="dd">
+                <button class="drop-btn">
+                  English <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="dd-content">
+                  <a href="#">English</a>
+                  <a href="#">Bahasa Indonesia</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="dd">
+                <button class="drop-btn">
+                  IDR <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="dd-content">
+                  <a href="#">IDR</a>
+                  <a href="#">USD</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg s-nav bg-snav">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#"><h3>Soora</h3></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <div class="mid d-flex flex-column w-100">
+              <nav class="mid-navbar">
+                <div class="container-fluid">
+                  <form class="d-flex w-100" role="search">
+                    <input
+                      class="form-control me-2 rounded-pill"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button
+                      class="btn btn-outline-light rounded-pill"
+                      type="submit"
+                    >
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+              </nav>
+              <ul class="navbar-nav mx-auto nav-container">
+                <li class="nav-item px-3">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="./"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link text-white" href="#">Man</a>
+                </li>
+                <li class="nav-item dropdown px-3">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Woman
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link text-white">Kids</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link text-white">Other</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="action">
+            <button
+              type="button"
+              class="btn btn-secondary rounded-pill me-3"
+              onclick="window.location.href='signup.html'"
+            >
+              Sign Up
+            </button>
+            <button type="button" class="btn btn-primary rounded-pill">
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-lg-4">
+            <div class="bg-info" style="border-radius: 10px">
+              <img
+                src="assets/dom-hill-nimElTcTNyY-unsplash.jpg"
+                style="
+                  border-radius: inherit;
+                  background-size: contain;
+                  height: 326px;
+                  width: 100%;
+                "
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="d-flex flex-column">
+              <div class="d-flex justify-content-between mt-3">
+                <div
+                  class="d-flex align-items-center"
+                  style="gap: 12px; width: 60%"
+                >
+                  <p style="font-size: 14px" >All Reviews (358)</p>
+                  <a href="" style="font-size: 11px; color: #46b1ff" class="fw-semibold text-decoration-none">See Reviews...</a>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between"
+                  style="gap: 10px; width: 40%"
+                >
+                  <p style="font-size: 12px; width: 40%">Sort by</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-2 border border-2 w-100"
+                    style="width: 60%"
+                  >
+                    <p style="font-size: 12px">latest</p>
+                    <p style="font-size: 12px">v</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column align-items-between w-100 position-relative p-3"
+                style="
+                  height: 100px;
+                  width: 100%;
+                  margin-top: 20px;
+                  border: 1px solid #46b1ff;
+                  border-radius: 10px;
+                "
+              >
+                <div class="d-flex justify-content-between">
+                  <div class="user">User</div>
+                  <div class="d-flex">
+                    <p class="">rating</p>
+                    <p>1 hour ago</p>
+                  </div>
+                </div>
+
+                <div
+                  class="report position-absolute"
+                  style="bottom: 8px; right: 10px"
+                >
+                  <p>
+                    <i
+                      class="fa-sharp fa-solid fa-triangle-exclamation text-danger"
+                    ></i>
+                    Report
+                  </p>
+                </div>
+                <p class="position-absolute w-25" style="bottom: 8px; overflow: hidden">
+                  awokawokoakoawkoawkoawkoawkoko
+                </p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-between w-100 position-relative p-3"
+                style="
+                  height: 100px;
+                  width: 100%;
+                  margin-top: 20px;
+                  border: 1px solid #46b1ff;
+                  border-radius: 10px;
+                "
+              >
+                <div class="d-flex justify-content-between">
+                  <div class="user">User</div>
+                  <div class="d-flex">
+                    <p class="">rating</p>
+                    <p>1 hour ago</p>
+                  </div>
+                </div>
+
+                <div
+                  class="report position-absolute"
+                  style="bottom: 8px; right: 10px"
+                >
+                  <p>
+                    <i
+                      class="fa-sharp fa-solid fa-triangle-exclamation text-danger"
+                    ></i>
+                    Report
+                  </p>
+                </div>
+                <p class="position-absolute w-25" style="bottom: 8px; overflow: hidden">
+                  awokawokoakoawkoawkoawkoawkoko
+                </p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-between w-100 position-relative p-3"
+                style="
+                  height: 100px;
+                  width: 100%;
+                  margin-top: 20px;
+                  border: 1px solid #46b1ff;
+                  border-radius: 10px;
+                "
+              >
+                <div class="d-flex justify-content-between">
+                  <div class="user">User</div>
+                  <div class="d-flex">
+                    <p class="">rating</p>
+                    <p>1 hour ago</p>
+                  </div>
+                </div>
+
+                <div
+                  class="report position-absolute"
+                  style="bottom: 8px; right: 10px"
+                >
+                  <p>
+                    <i
+                      class="fa-sharp fa-solid fa-triangle-exclamation text-danger"
+                    ></i>
+                    Report
+                  </p>
+                </div>
+                <p class="position-absolute w-25" style="bottom: 8px; overflow: hidden">
+                  awokawokoakoawkoawkoawkoawkoko
+                </p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-between w-100 position-relative p-3"
+                style="
+                  height: 100px;
+                  width: 100%;
+                  margin-top: 20px;
+                  border: 1px solid #46b1ff;
+                  border-radius: 10px;
+                "
+              >
+                <div class="d-flex justify-content-between">
+                  <div class="user">User</div>
+                  <div class="d-flex">
+                    <p class="">rating</p>
+                    <p>1 hour ago</p>
+                  </div>
+                </div>
+
+                <div
+                  class="report position-absolute"
+                  style="bottom: 8px; right: 10px"
+                >
+                  <p>
+                    <i
+                      class="fa-sharp fa-solid fa-triangle-exclamation text-danger"
+                    ></i>
+                    Report
+                  </p>
+                </div>
+                <p class="position-absolute w-25" style="bottom: 8px; overflow: hidden">
+                  awokawokoakoawkoawkoawkoawkoko
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div
+              class="fw-semibold"
+              style="font-size: 2rem; margin-bottom: 6px"
+            >
+              Product Name
+            </div>
+            <div class="d-flex" style="margin-bottom: 9px">
+              <button
+                class="me-3 bg-snav fw-regular text-white"
+                style="
+                  padding: 8px 9px;
+                  border-color: transparent;
+                  border-radius: 10px;
+                  font-size: 20px;
+                  line-height: 25px;
+                "
+              >
+                Details
+              </button>
+              <button class="me-3 fw-regular btn-soora">Specifications</button>
+            </div>
+
+            <p class="fw-semibold" style="font-size: 14px">
+              Condition : <span>New</span>
+            </p>
+            <p class="fw-semibold" style="font-size: 14px">
+              Brand : <span>Unknown</span>
+            </p>
+            <p class="fw-semibold" style="font-size: 14px">
+              Type : <span>F250</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor in
+              optio accusamus officia quo aut fugiat, commodi minima dolore
+              repellat tenetur iure illum voluptate quia soluta facilis pariatur
+              omnis laudantium minus illo explicabo quam. Aliquid, id voluptates
+              dignissimos perferendis qui ipsa blanditiis, nesciunt doloribus
+              exercitationem dolorem non quia voluptatem praesentium mollitia
+              minus perspiciatis quae sequi atque temporibus nemo labore
+              similique sunt magni fugiat. Fuga aperiam incidunt sequi at, enim
+              rem optio qui, officiis sint dignissimos non quasi eligendi
+              aspernatur laboriosam ipsum veniam quae facilis dolorum unde
+              facere. Consequatur expedita dolorem odit, iste, harum ut veniam
+              repellat quia sapiente amet provident?
+            </p>
+            <div class="d-flex">
+              <div class="d-flex flex-column w-50">
+                <p
+                  class="fw-semibold"
+                  style="margin-top: 5px; margin-bottom: 9px"
+                >
+                  Qty
+                </p>
+                <div class="d-flex">
+                  <div
+                    class="border border-1 d-flex align-items-center justify-content-between"
+                    style="
+                      width: 150px;
+                      height: 50px;
+                      border-radius: 10px;
+                      padding: 0 10px;
+                      border: 1px solid #46b1ff !important;
+                    "
+                  >
+                    <button
+                      style="
+                        width: 50px;
+                        height: 60%;
+                        border-radius: 50%;
+                        color: white;
+                        border-color: transparent;
+                      "
+                      class="bg-snav"
+                    >
+                      -
+                    </button>
+                    <input
+                      value="1"
+                      min="0"
+                      max="9999"
+                      type="number"
+                      class="stock-input"
+                    />
+                    <button
+                      style="
+                        width: 50px;
+                        height: 60%;
+                        border-radius: 50%;
+                        color: white;
+                        border-color: transparent;
+                      "
+                      class="bg-snav"
+                    >
+                      +
+                    </button>
+                  </div>
+                  <p
+                    class="text-danger fw-semibold align-self-center"
+                    style="margin-left: 10px"
+                  >
+                    9999 stocks left
+                  </p>
+                </div>
+                <p
+                  class="fw-semibold"
+                  style="margin-top: 22px; font-size: 1.25rem"
+                >
+                  Rp 150.000
+                  <sup style="margin-left: 5px"
+                    ><del class="fw-semibold" style="color: #595959"
+                      >Rp 500.000</del
+                    ></sup
+                  >
+                </p>
+                <p
+                  class="text-danger fw-semibold"
+                  style="font-size: 12px; margin-bottom: 20px"
+                >
+                  Valid until 12 December
+                </p>
+                <p class="fw-semibold">Color Variant</p>
+                <div
+                  class="d-flex"
+                  style="gap: 20px; margin-top: 5px; margin-bottom: 30px"
+                >
+                  <div
+                    class="color-variant"
+                    style="
+                      background-color: #ff0000;
+                      width: 34px;
+                      height: 32px;
+                      border-radius: 50%;
+                    "
+                  ></div>
+                  <div
+                    class="color-variant"
+                    style="
+                      background-color: #00ff00;
+                      width: 34px;
+                      height: 32px;
+                      border-radius: 50%;
+                    "
+                  ></div>
+                  <div
+                    class="color-variant"
+                    style="
+                      background-color: #0000ff;
+                      width: 34px;
+                      height: 32px;
+                      border-radius: 50%;
+                    "
+                  ></div>
+                </div>
+                <div class="d-flex align-items-center" style="gap: 36px">
+                  <button
+                    style="
+                      background-color: white;
+                      width: 50%;
+                      height: 52px;
+                      border-radius: 10px;
+                      color: #46b1ff;
+                      border: 1px solid #46b1ff;
+                    "
+                  >
+                    Add to cart
+                  </button>
+                  <button
+                    style="
+                      background-color: #46b1ff;
+                      width: 50%;
+                      height: 52px;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: transparent;
+                    "
+                    onclick="window.location.href = 'checkout.html'"
+                  >
+                    Checkout
+                  </button>
+                  <p class="text-danger w-50" style="font-size: 14px">
+                    999 Checkouts
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-column w-lg-50">
+                <p>Notes</p>
+                <textarea
+                  name=""
+                  id="notes"
+                  cols="50"
+                  rows="5"
+                  style="resize: none"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <h4 class="f-heading">Soora</h4>
+            <p class="footer-nav">About Soora</p>
+            <p class="footer-nav">Intellectual Property</p>
+            <p class="footer-nav">Career</p>
+            <p class="footer-nav">Blog</p>
+            <p class="footer-nav">Affiliate program</p>
+            <p class="footer-nav">B2B Services</p>
+            <p class="footer-nav">©️2022 Soora. All Rights Reserved.</p>
+          </div>
+          <div class="col-3">
+            <h4 class="f-heading">Need Help?</h4>
+            <p class="footer-nav">What is Soora?</p>
+            <p class="footer-nav">Ask Sooramate</p>
+            <p class="footer-nav">Terms and Conditions</p>
+            <p class="footer-nav">Privacy Policy</p>
+          </div>
+          <div class="col-3">
+            <h4 class="f-heading">Purchase</h4>
+            <p class="footer-nav">Top Up & Billing</p>
+            <p class="footer-nav">COD Shipping</p>
+          </div>
+          <div class="col-3">
+            <h4 class="f-heading">Find us on</h4>
+            <div class="socmed-container">
+              <div class="socmed">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="socmed">
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
+              <div class="socmed">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div class="socmed">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</html>

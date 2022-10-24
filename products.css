@@ -1,0 +1,54 @@
+.btn-soora {
+  padding: 8px 13px;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 25px;
+  border-color: #46b1ff;
+  color: #46b1ff;
+  box-shadow: none;
+  outline: none;
+  background-color: white;
+  border-style: solid;
+}
+
+.btn-soora:hover {
+  background-color: #46b1ff;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-soora:active {
+  outline: none;
+}
+
+.stock-input,
+.stock-input:focus {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 3px;
+  border-color: #46b1ff;
+  outline-color: #46b1ff;
+  border-image: none;
+  border-style: solid;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #46b1ff;
+  outline-color: #46b1ff;
+}
+
+#notes {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #46b1ff;
+  outline-color: #46b1ff;
+}
