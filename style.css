@@ -320,3 +320,14 @@ input:focus {
   gap: 0px;
   align-items: center;
 }
+
+.auth-cart{
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  color: #fff !important;
+}
+
+.auth-action:hover{
+  opacity: 0.8;
+}
